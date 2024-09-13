@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Anna</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/soon (1).png" alt="">
+            </div>
+            <h1>Anna Isabel Vargas Vargas</h1>
+            <h2>Ingeniera en Sistemas de Información </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/aivvargas"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ann_isabel_/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/anna-isabel-vargas-989216232/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Anna150102"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Anna Vargas.</span> Soy ingeniería en sistemas con bases aplicadas en programación
+                visual, apasionada por la tecnología y el área de sistemas
+                operativos para así dar apoyo a las empresas, utilizando
+                habilidades metódicas, creativas y analíticas, tengo dominio del
+                trabajo con presión y sé resolver problemas sobre la marcha.
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-01-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +505 57039383
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            vargasanna2013@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>Dirección</strong>
+                            León, Nicaragua
+                        </li>
+                       
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                       
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="CV Anna Isabel Vargas Vargas.pdf" download="Anna_Isabel_CV.pdf">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Kotlin</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>ingeniería en Sistemas de Información</h4>
+                        <span class="casa">Universidad Nacional Autónoma de Nicaragua - LEÓN</span>
+                        <span class="fecha">2019 - 2024</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Primaria - Secundaria</h4>
+                        <span class="casa">Colegio La Asunción</span>
+                        <span class="fecha">2007 - 2018</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Aplicaciones de Escritorio</h4>
+                        <span class="casa">ANPROSOR “Sistemas de básculas”</span>
+                        <span class="fecha">Chichigalpa-Nicaragua, Febrero 2022- Abril 2024</span>
+                        <p>Creación de una aplicación de escritorio con
+                            Java/spring/mysql sobre un sistema de básculas y
+                            almacenamiento de grano.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Telecomunicaciones</h4>
+                        <span class="casa">Festival de la familia “Equipo Coordinador”</span>
+                        <span class="fecha">León-Nicaragua, Enero-Abril 2024</span>
+                        <p>Coordinación del evento en la ciudad de León en zona de
+                            contabilidad , telecomunicaciones y realización del mismo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollo Web</h4>
+                        <span class="casa">Publicidad Nicaragua</span>
+                        <span class="fecha">Remoto (Managua-Nicaragua), Junio 2023-
+                            Actualmente
+                            </span>
+                        <p>Creación de páginas web con Wordpress, uso de plugins
+                            como elementor pro, woocomerce, Astra, etc…, con
+                            despliegue en subs dominios.<br>
+                            Creación de logos, posts para redes sociales, videos para
+                            plataformas de streaming
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <a href="https://thefuturemillionstate.motivatedsellerslists.com/" target="_blank">
+                    <div class="proyecto"> 
+                        <img src="img/1.png" alt="">
+                        <div class="overlay" >
+                            <h3>Desarrollo Web HTML/CSS/JS</h3>
+                            <p>The future real estate millionaire coaching</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://bellezaandco.pixelsmedias.com" target="_blank">
+                    <div class="proyecto"> 
+                        <img src="img/2.png" alt="">
+                        <div class="overlay" >
+                            <h3>Desarrollo Web Wordpress</h3>
+                            <p>Belleza & Co</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://paolabeautysalon.com" target="_blank">
+                    <div class="proyecto"> 
+                        <img src="img/3.png" alt="">
+                        <div class="overlay" >
+                            <h3>Desarrollo Web Wordpress</h3>
+                            <p>Paola's Beauty Salon</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://unitedprojectglobal.com" target="_blank">
+                    <div class="proyecto"> 
+                        <img src="img/4.png" alt="">
+                        <div class="overlay" >
+                            <h3>Desarrollo Web Wordpress</h3>
+                            <p> United Project Global (UPG)</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://northcreeklandscapellc.com" target="_blank">
+                    <div class="proyecto"> 
+                        <img src="img/5.png" alt="">
+                        <div class="overlay" >
+                            <h3>Desarrollo Web Wordpress</h3>
+                            <p>northcreeklandscapellc</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://yajairadominicansalon.com" target="_blank">
+                    <div class="proyecto"> 
+                        <img src="img/6.png" alt="">
+                        <div class="overlay" >
+                            <h3>Desarrollo Web Wordpress</h3>
+                            <p>yajairadominicansalon</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+              
+                    <div class="col"> 
+                        <img src="img/dasasd.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 21000, León, Nicaragua
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +505 57039383
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: vargasanna2013@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+            
+                
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/aivvargas"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/ann_isabel_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/anna-isabel-vargas-989216232/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Anna150102"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
